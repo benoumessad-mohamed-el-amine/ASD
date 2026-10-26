@@ -27,7 +27,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 ## student project - report
 
 ```
-.\venv\Scripts\python.exe -c "import sys; sys.path.append('student_project'); from students import generate_students; from analysis import calculate_class_statistics, save_report; s = generate_students(10); stats = calculate_class_statistics(s); save_report(s, stats, 'student_project/results/report.txt'); print('done')"
+.\venv\Scripts\python.exe student_project\run.py
 ```
 
 ## student project - notebook
