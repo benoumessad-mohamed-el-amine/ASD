@@ -1,25 +1,20 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual Environments
 venv/
 .env/
 env/
 ENV/
 .venv/
 
-# Environment Variables & Local Config
 .env
 .env.*
 !.env.example
 
-# Jupyter Notebook checkpoints
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# IDEs and Editors
 .vscode/
 .idea/
 *.swp
@@ -28,18 +23,15 @@ ENV/
 *.sublime-project
 *.sublime-workspace
 
-# Operating System Files
 .DS_Store
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# Distribution / packaging
 build/
 dist/
 *.egg-info/
 *.egg
 
-# Logs
 *.log
